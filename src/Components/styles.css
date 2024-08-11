@@ -44,3 +44,39 @@
   transform: scale(0.8);
   box-shadow: 0 0 5px black;
 }
+.todos{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  flex-wrap: wrap;
+}
+.todo_item{
+  display: flex;
+  width: 40%;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 15px;
+  background-color: yellow;
+
+}
+.todo_single_text{
+  flex: 1;
+  padding: 5px;
+  border: none;
+  font-size: 20px;
+}
+.icon{
+  margin-left: 10px;
+  font-size: 25pd;
+  cursor: pointer;
+}
+@media (max-width:700px) {
+  .input{
+    width: 95%;
+
+  }
+  .todo_item{
+    width: 100%;
+  }
+  
+}
